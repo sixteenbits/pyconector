@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c14769d91c71403e1356d4307a04df56276d6c31b76ad1c8447f5854257e1a02"
+            "sha256": "ff792e8a91dc0f2df1106158f5f2bee00b5c633ca13b810191c3791f4449fe0a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,9 +16,18 @@
         ]
     },
     "default": {
+        "paho-mqtt": {
+            "hashes": [
+                "sha256:4476ef12ee7573ea64fbebefd599e7febbaa53b705f60662076c050fbf0e48a0",
+                "sha256:e440a052b46d222e184be3be38676378722072fcd4dfd2c8f509fb861a7b0b79"
+            ],
+            "index": "pypi",
+            "version": "==1.4.0"
+        },
         "pykey": {
             "hashes": [
-                "sha256:aefefbde7a4216fd9ef34598541dd9233f3447043fb396279bd2c08b3e9e7224"
+                "sha256:aefefbde7a4216fd9ef34598541dd9233f3447043fb396279bd2c08b3e9e7224",
+                "sha256:cd4903b813b9aa8721949473bdf1232a84800e56f79660f569c488ad1e281b20"
             ],
             "index": "pypi",
             "version": "==0.2"
@@ -31,6 +40,14 @@
                 "sha256:c7e2e5773d87ccc00d01c273e439386f4d6d63cce61317a79ccce5880162f9fb"
             ],
             "version": "==2.3.0"
+        },
+        "colorama": {
+            "hashes": [
+                "sha256:05eed71e2e327246ad6b38c540c4a3117230b19679b875190486ddd2d721422d",
+                "sha256:f8ac84de7840f5b9c4e3347b3c1eaa50f7e49c2b07596221daec5edaabbd7c48"
+            ],
+            "markers": "sys_platform == 'win32'",
+            "version": "==0.4.1"
         },
         "entrypoints": {
             "hashes": [
@@ -168,7 +185,8 @@
         },
         "wrapt": {
             "hashes": [
-                "sha256:565a021fd19419476b9362b05eeaa094178de64f8361e44468f9e9d7843901e1"
+                "sha256:565a021fd19419476b9362b05eeaa094178de64f8361e44468f9e9d7843901e1",
+                "sha256:cde76142d2ef6afc4673f421f60c0b5b053af4968a720738c8e24a3b6ac2569c"
             ],
             "version": "==1.11.2"
         }

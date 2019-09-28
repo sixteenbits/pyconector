@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 pykey = "*"
+paho-mqtt = "*"
 
 [dev-packages]
 pylint = "*"
