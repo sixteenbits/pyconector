@@ -5,9 +5,9 @@ BROKER_URL = '172.26.27.102'
 BROKER_PORT = 1883
 TOPIC = 'jamtoday/vara'
 CMD = {
-    'l': 'a',
-    'r': 'd',
-    'v': 's'
+    'l': 'LEFT',
+    'r': 'RIGHT',
+    'v': 'z'
 }
 
 
