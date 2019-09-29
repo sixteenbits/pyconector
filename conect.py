@@ -1,7 +1,8 @@
 import paho.mqtt.client as mqtt
-from pyKey import press
+from pyKey import press, pressKey, releaseKey
+from time import sleep
 
-BROKER_URL = '172.26.27.102'
+BROKER_URL = 'localhost'
 BROKER_PORT = 1883
 TOPIC = 'jamtoday/vara'
 CMD = {
@@ -26,7 +27,12 @@ def leer_mensaje_nuevo(client, userdata, msg):
     comando = CMD.get(mensaje, 'nanai de la china')
     print('tecla -> {}'.format(comando))
     # Pulsacion de teclado
-    press(comando)
+    #press(comando, 1)
+    pressKey(comando)
+    sleep(0.125)
+    releaseKey(comando)
+
+
 
 
 client = mqtt.Client()  # crea el cliente
