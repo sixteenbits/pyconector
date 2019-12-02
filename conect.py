@@ -33,8 +33,6 @@ def leer_mensaje_nuevo(client, userdata, msg):
     releaseKey(comando)
 
 
-
-
 client = mqtt.Client()  # crea el cliente
 client.on_connect = conectado_al_broker  # setup cuando se inicia la conexion
 client.on_message = leer_mensaje_nuevo  # callback para cuando lee el topic
